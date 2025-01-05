@@ -1,0 +1,341 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 1280px;
+  height: 2000px;
+  justify-content: center;
+}
+
+.topcontainer {
+  display: flex;
+  height: 50%;
+}
+/*왼쪽 상단*/
+.leftcontainer {
+  width: 40%;
+  background-color: #302c29;
+}
+
+/*오른쪽 상단*/
+.rightcontainer {
+  position: relative;
+  width: 60%;
+}
+.right_top_container {
+  position: relative;
+  height: 60%;
+  background-color: #f9f6f1;
+  overflow: hidden;
+}
+.right_bottom_container {
+  display: flex;
+  height: 40%;
+  background-color: #dcd2c8;
+}
+/*아래쪽 상단*/
+.maincontainer {
+  width: 100%;
+  height: 50%;
+  background-color: #f9f6f1;
+}
+.top_left {
+  display: flex;
+  height: 25%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top_font {
+  padding: 20px 20px 0px 20px;
+  margin-bottom: 10px;
+}
+.mid_left {
+  height: 50%;
+}
+.bottom_left {
+  position: relative;
+  display: flex;
+  height: 25%;
+  align-items: center;
+  padding: 0px 20px;
+}
+.big_money_font {
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.top_left_font {
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  padding: 20px;
+}
+.kimchi_font {
+  color: rgba(255, 255, 255, 0.586);
+  font-size: 16px;
+  padding: 10px 0px;
+}
+.gray_font {
+  color: rgba(255, 255, 255, 0.586);
+  font-size: 16px;
+  padding: 0px 20px;
+}
+.mid_font {
+  margin-top: 10px;
+}
+.mid_leftside_title_font {
+  color: white;
+  font-size: 35px;
+}
+.circle_image {
+  width: 120px;
+  height: 120px;
+}
+.pork_img {
+  align-items: center;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.kimchi_set {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 20px 0px 20px;
+}
+.soybean {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 60px;
+  left: 200px;
+  z-index: 3;
+}
+.kimchi {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 60px;
+  left: 270px;
+  z-index: 2;
+}
+.cheongguk {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 60px;
+  left: 350px;
+}
+.plus {
+  position: absolute;
+  font-size: 30px;
+  width: 120px;
+  height: 120px;
+  top: 100px;
+  left: 140px;
+}
+.porkfont {
+  display: flex;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+.money_font {
+  font-size: 35px;
+  font-weight: bolder;
+  padding-left: 100px;
+}
+.Jeyuk {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 170px;
+  left: 50px;
+}
+.right_top_section {
+  position: relative;
+  padding: 20px;
+  height: 30%;
+}
+.Jeyuk_img {
+  height: 70%;
+}
+.soybean_right {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  top: 200px;
+  left: 580px;
+  z-index: 3;
+}
+.kimchi_right {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  top: 300px;
+  left: 580px;
+  z-index: 2;
+}
+.cheongguk_right {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  top: 390px;
+  left: 580px;
+}
+.image_row {
+  display: flex;
+}
+.main_top {
+  height: 10%;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+.main_mid {
+  height: 90%;
+  display: flex;
+  padding: 20px;
+}
+.mian_midleft {
+  width: 50%;
+  padding-right: 50px;
+}
+.main_midright {
+  width: 50%;
+}
+.bokkeum {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  /* background-color: red; */
+}
+.food {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.pork_set {
+  display: flex;
+  flex-direction: row;
+
+  padding: 10px 0px;
+}
+.right_top_title {
+  padding-bottom: 15px;
+}
+.pork_setb {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px 20px 20px 20px;
+}
+
+.rightside_right {
+  text-align: right;
+  justify-items: right;
+}
+.noodle_image {
+  width: 180px;
+  height: 180px;
+  padding: 20px 0px 40px 50px;
+}
+.or {
+  position: absolute;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  top: 170px;
+  left: 480px;
+}
+.launchtime {
+  display: flex;
+  background-color: #2c2825;
+  width: 400px;
+  height: 60px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-size: 27px;
+}
+.main_title {
+  font-size: 27px;
+  font-weight: bold;
+}
+.table_style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: red; */
+  padding: 20px;
+}
+.table_row {
+  display: flex;
+}
+.table_name_font {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px 0px;
+}
+.table_money_font {
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+}
+.main_image {
+  width: 150px;
+  height: 150px;
+}
+.jeyuk_bokkeum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.food_row {
+  display: flex;
+}
+.food_left {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+.food_right {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.food_font {
+  font-size: 20px;
+  font-weight: bold;
+}
+.food_money_font {
+  font-size: 25px;
+  font-weight: bold;
+}
+.font_white {
+  color: white;
+  display: inline-block;
+}
+.font_bold {
+  display: inline-block;
+  font-weight: bold;
+}
+.launch_subtext {
+  padding-top: 10px;
+  font-size: 15px;
+}
+.froze_font {
+  font-size: 15px;
+  padding: 15px 0px 0px 0px;
+  text-align: end;
+}
